@@ -11,7 +11,7 @@ namespace EKZAMEN_C_
         public void SaveXml(ListSparePart listsparePartLoad){
              // write
              XmlSerializer formatter = new XmlSerializer(typeof(ListSparePart));
-             using(FileStream stream = new FileStream("user.xml", FileMode.OpenOrCreate)){
+             using(FileStream stream = new FileStream("SparePart.xml", FileMode.OpenOrCreate)){
                  formatter.Serialize(stream, listsparePartLoad);
              }
         }
@@ -19,13 +19,9 @@ namespace EKZAMEN_C_
              //      read
             ListSparePart listsparePartLoad = new ListSparePart();
             XmlSerializer formatter = new XmlSerializer(typeof(ListSparePart));
-            using(FileStream stream = new FileStream("user.xml", FileMode.OpenOrCreate)){
+            using(FileStream stream = new FileStream("SparePart.xml", FileMode.OpenOrCreate)){
                return listsparePartLoad = (ListSparePart)formatter.Deserialize(stream);
             }
         }
     }
-
-
-
-
 }

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<ArrayOfSparePart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SparePart>
+    <Name>JAPAN0</Name>
+    <Id>1</Id>
+    <Price>1</Price>
+    <BrandAvto>NISSAN0</BrandAvto>
+    <MarakAvto>NV - 2000</MarakAvto>
+    <CategoriSparePart>podveska0</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN1</Name>
+    <Id>2</Id>
+    <Price>2</Price>
+    <BrandAvto>NISSAN1</BrandAvto>
+    <MarakAvto>NV - 2001</MarakAvto>
+    <CategoriSparePart>podveska1</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN2</Name>
+    <Id>3</Id>
+    <Price>3</Price>
+    <BrandAvto>NISSAN2</BrandAvto>
+    <MarakAvto>NV - 2002</MarakAvto>
+    <CategoriSparePart>podveska2</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN3</Name>
+    <Id>4</Id>
+    <Price>4</Price>
+    <BrandAvto>NISSAN3</BrandAvto>
+    <MarakAvto>NV - 2003</MarakAvto>
+    <CategoriSparePart>podveska3</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN4</Name>
+    <Id>5</Id>
+    <Price>5</Price>
+    <BrandAvto>NISSAN4</BrandAvto>
+    <MarakAvto>NV - 2004</MarakAvto>
+    <CategoriSparePart>podveska4</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN5</Name>
+    <Id>6</Id>
+    <Price>6</Price>
+    <BrandAvto>NISSAN5</BrandAvto>
+    <MarakAvto>NV - 2005</MarakAvto>
+    <CategoriSparePart>podveska5</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN6</Name>
+    <Id>7</Id>
+    <Price>7</Price>
+    <BrandAvto>NISSAN6</BrandAvto>
+    <MarakAvto>NV - 2006</MarakAvto>
+    <CategoriSparePart>podveska6</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN7</Name>
+    <Id>8</Id>
+    <Price>8</Price>
+    <BrandAvto>NISSAN7</BrandAvto>
+    <MarakAvto>NV - 2007</MarakAvto>
+    <CategoriSparePart>podveska7</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN8</Name>
+    <Id>9</Id>
+    <Price>9</Price>
+    <BrandAvto>NISSAN8</BrandAvto>
+    <MarakAvto>NV - 2008</MarakAvto>
+    <CategoriSparePart>podveska8</CategoriSparePart>
+  </SparePart>
+  <SparePart>
+    <Name>JAPAN9</Name>
+    <Id>10</Id>
+    <Price>10</Price>
+    <BrandAvto>NISSAN9</BrandAvto>
+    <MarakAvto>NV - 2009</MarakAvto>
+    <CategoriSparePart>podveska9</CategoriSparePart>
+  </SparePart>
+</ArrayOfSparePart>

@@ -15,6 +15,15 @@ namespace EKZAMEN_C_
                     if(choice == 3){
                         break;
                     }
+                    if(choice == 1){
+                        ListSparePart listsparePartLoad = new ListSparePart();
+                        listsparePartLoad = this.PrintXML();
+                        
+                    }
+
+
+
+
                 }
 
 
@@ -34,25 +43,8 @@ namespace EKZAMEN_C_
                 }
 
               
-
-
-
-
-
-
-
               }while(choice != 3);
-
-
-
-
-            
-
         }
-
-
-
-
 
         public void InitList()
         {
@@ -66,7 +58,7 @@ namespace EKZAMEN_C_
             xmll.SaveXml(listsparePart);
         }
         
-        public void PrintXML(){
+        public ListSparePart PrintXML(){
             //      read
            ListSparePart listsparePartLoad = new ListSparePart();
             listsparePartLoad = xmll.LoadXml();
@@ -75,6 +67,7 @@ namespace EKZAMEN_C_
            {
                Console.WriteLine(listsparePartLoad[i]);
            }
+           return listsparePartLoad;
         }
     }
 }

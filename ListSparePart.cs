@@ -8,6 +8,7 @@ namespace EKZAMEN_C_
     public class ListSparePart : List<SparePart>,IDisposable{
         public ListSparePart(){
            // base = new List<User>();
+           
         }
         public void ADD(SparePart part){
             base.Add(part);
